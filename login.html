@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Kids Blog | Login</title>
+    <link rel="stylesheet" href="./src/css/login.css" />
+    <script
+      src="https://kit.fontawesome.com/94f51df969.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="head">
+      <a href="./index.html" class="logo">Kids <span>Blog</span></a>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="#">About</a>
+        <a href="./services.html">Services</a>
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+          Profile
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+      </nav>
+    </header>
+    <ul class="list hidden">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="./index.html">Logout</a></li>
+    </ul>
+    <section class="body">
+      <main class="main">
+        <h2 class="login">Login</h2>
+        <form action="#" method="get">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+          <input type="button" value="Login" class="button" />
+          <p>Or <a href="./signup.html">Signup</a></p>
+        </form>
+      </main>
+    </section>
+    <script src="./src/js/login.js"></script>
+  </body>
+</html>
